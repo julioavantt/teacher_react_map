@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react"
 
+import { CardList } from "./components/CardList"
+import { NavBar } from "./components/NavBar"
 import data from "./data/MOCK_DATA.json"
-
-const itemsMenu = ["Home", "Products", "About Us", "Contact"]
 
 function App() {
 	const [people, setPeople] = useState([])
@@ -17,18 +17,8 @@ function App() {
 
 	return (
 		<>
-			<header>
-				<ul>
-					{itemsMenu.map(item => (
-						<li key={item}>{item}</li>
-					))}
-				</ul>
-			</header>
-			<main>
-				{people.map(person => (
-					<div>{person.first_name}</div>
-				))}
-			</main>
+			<NavBar />
+			<CardList people={people} />
 		</>
 	)
 }
