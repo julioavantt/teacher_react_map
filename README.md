@@ -23,6 +23,7 @@
 ##  Este repo trata sobre: El método .map en React.
 
 - Link útil: [Mockaroo](https://www.mockaroo.com/)
+- Esta aplicación está creada con Create React App. Para iniciarla ejecutar npm start en Terminal.
   
 <br>
 
