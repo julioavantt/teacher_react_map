@@ -14,7 +14,9 @@ export default function App() {
 			setTimeout(() => resolve(data), 3000)
 		)
 
-		promise.then(data => setPeople(data)).finally(() => setLoading(false))
+		promise
+			.then(data => setPeople(data))
+			.finally(() => setLoading(false))
 	}, [])
 
 	return (
