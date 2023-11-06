@@ -22,7 +22,7 @@
 
 -  Esta aplicación está creada con Create React App.
 -  Clonarla: git clone https://github.com/julioavantt/teacher_js_promises.git
--  Para iniciarla, luego de clonar, ejecute npm i para instalar dependencias y luego mpm start para arrancar el servidor de desarrollo.
+-  Para iniciarla, luego de clonar, ejecute npm i para instalar dependencias y luego npm start para arrancar el servidor de desarrollo.
 -  Observar archivos src/App.js y src/components/\*
    <br>
 
